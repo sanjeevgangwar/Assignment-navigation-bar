@@ -98,20 +98,20 @@ class _IndianStudentState extends State<IndianStudent> {
                                   ],
                                 ),
                               ),
-                              const SizedBox(height: 30),
-                              TextButton(
-                                style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(
-                                      Colors.grey[700]),
-                                ),
-                                onPressed: () {},
-                                child: const Text(
-                                  'Application Form',
-                                  style: TextStyle(
-                                      color: Colors.black,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ),
+                              // const SizedBox(height: 30),
+                              // TextButton(
+                              //   style: ButtonStyle(
+                              //     backgroundColor: MaterialStateProperty.all(
+                              //         Colors.grey[700]),
+                              //   ),
+                              //   onPressed: () {},
+                              //   child: const Text(
+                              //     'Application Form',
+                              //     style: TextStyle(
+                              //         color: Colors.black,
+                              //         fontWeight: FontWeight.bold),
+                              //   ),
+                              // ),
                             ],
                           ),
                         ],
@@ -165,22 +165,22 @@ class _IndianStudentState extends State<IndianStudent> {
                                 ),
                               ),
                               const SizedBox(height: 40),
-                              TextButton(
-                                style: ButtonStyle(
-                                  backgroundColor: MaterialStateProperty.all(
-                                      Colors.grey[700]),
-                                ),
-                                onPressed: () {
-                                  Get.to(() => LoginPage(),
-                                      transition: Transition.zoom);
-                                },
-                                child: const Text(
-                                  'Online Forms',
-                                  style: TextStyle(
-                                      color: Colors.black,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                              ),
+                              // TextButton(
+                              //   style: ButtonStyle(
+                              //     backgroundColor: MaterialStateProperty.all(
+                              //         Colors.grey[700]),
+                              //   ),
+                              //   onPressed: () {
+                              //     Get.to(() => const LoginPage(),
+                              //         transition: Transition.zoom);
+                              // //   },
+                              //   child: const Text(
+                              //     'Online Forms',
+                              //     style: TextStyle(
+                              //         color: Colors.black,
+                              //         fontWeight: FontWeight.bold),
+                              //   ),
+                              // ),
                             ],
                           ),
                         ],
@@ -200,7 +200,7 @@ class _IndianStudentState extends State<IndianStudent> {
                         children: const [
                           Text(
                             '• An application for the change of examination center OR for the change of course would attract a fee of Rs.200/-. The final decision on this issue would be taken by the Registrar, DSVV.\n\n•The University holds the right to cancel any application form at any stage without any prior notice to the candidate.\n\n• Reservation will be applicable according to Uttarakhand Govt. rules.\n\n• Kindly note that the University is working for altruistic cause. Therefore, it is expected from the candidates to deposit necessary maintenance charges at the time of admission.\n\n• A refundable caution deposit of Rs.1000/- would be charged at the time of admission. (Refundable within one year of course completion)\n\n• The Entrance Examination Fee is Non-Refundable,\n\n• परीक्षा प्रवेश शुल्क अप्रतिदेय रहेगा (वापस नहीं किया जायेगा)\n\n• Applicants can not apply for two or more courses in one session, simultaneously, apart from B.Ed.\n\n• एक सत्र में आवेदक दो या दो से अधिक कोर्सेज में एक साथ आवेदन नहीं कर सकते हैं.\n\n• Fee once paid will not be Refunded.\n\n• भुगतान किए गए शुल्क को वापस नहीं किया जाएगा.',
-                            style: TextStyle(fontSize: 15),
+                            style: TextStyle(fontSize: 16),
                           )
                         ],
                       )

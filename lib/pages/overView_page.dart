@@ -15,7 +15,7 @@ class _OverViewPageState extends State<OverViewPage> {
       child: Scaffold(
         body: SingleChildScrollView(
           child: Column(children: [
-            const SizedBox(height: 4),
+            const SizedBox(height: 10),
             Stack(
               children: <Widget>[
                 Container(
