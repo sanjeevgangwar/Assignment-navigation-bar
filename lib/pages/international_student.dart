@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:navigation_bar/pages/addmission_information_page.dart';
+import 'package:navigation_bar/pages/international_courses.dart';
+import 'package:navigation_bar/pages/iro_page.dart';
 
 class InternationalStudentPage extends StatefulWidget {
   const InternationalStudentPage({Key? key}) : super(key: key);
@@ -415,6 +418,73 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
             ),
             const SizedBox(
               height: 20,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: TextButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all(Colors.grey[700]),
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  const InternationalCoursesPage()));
+                    },
+                    child: const Text(
+                      'Courses',
+                      style: TextStyle(
+                          color: Colors.black, fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: TextButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all(Colors.grey[700]),
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) =>
+                                  const InternationaAddmmissionInfoPage()));
+                    },
+                    child: const Text(
+                      'Admission Information',
+                      style: TextStyle(
+                          color: Colors.black, fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: const EdgeInsets.all(10),
+                  child: TextButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all(Colors.grey[700]),
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const IroPage()));
+                    },
+                    child: const Text(
+                      'IRO Home',
+                      style: TextStyle(
+                          color: Colors.black, fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                ),
+              ],
             )
           ],
         ),

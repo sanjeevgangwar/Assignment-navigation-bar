@@ -4,8 +4,8 @@ import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:navigation_bar/pages/indian_student.dart';
 import 'package:navigation_bar/pages/overView_page.dart';
-// import 'package:navigation_bar/pages/phd_page.dart';
-import 'package:navigation_bar/pages/international_srudent.dart';
+import 'package:navigation_bar/pages/phd_page.dart';
+import 'package:navigation_bar/pages/international_student.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -19,7 +19,7 @@ List pages = [
   const OverViewPage(),
   const IndianStudent(),
   const InternationalStudentPage(),
-  // const PhdStudentPage(),
+  const PhdStudentPage(),
 ];
 
 class _MainPageState extends State<MainPage> {
@@ -53,12 +53,12 @@ class _MainPageState extends State<MainPage> {
             activeColor: Colors.orange,
             inactiveColor: Colors.black,
           ),
-          // BottomNavyBarItem(
-          //   icon: const Icon(Icons.book_online_sharp),
-          //   title: const Text('Phd. Addmission'),
-          //   activeColor: Colors.orange,
-          //   inactiveColor: Colors.black,
-          // ),
+          BottomNavyBarItem(
+            icon: const Icon(Icons.book_online_sharp),
+            title: const Text('Phd. Addmission'),
+            activeColor: Colors.orange,
+            inactiveColor: Colors.black,
+          ),
         ],
       ),
     );
