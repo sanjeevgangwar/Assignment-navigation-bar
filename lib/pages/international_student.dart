@@ -34,7 +34,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                   const Text(
                     'The IRO coordinates bilateral research and academic programmes of the centres/departments of Dev Sanskriti Vishwavidyalaya with overseas Institutions/Universities through Memorandum of Understanding (MoU).',
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 18),
+                    style: TextStyle(fontSize: 17),
                   ),
                   const SizedBox(height: 20),
                   const Text(
@@ -60,9 +60,9 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                   ),
                   const SizedBox(height: 20),
                   const Text(
-                      'The Centre also conducts foreign language courses such as German, French and Japanese for students, researchers and faculty members to help to gain much proficiency in the language for higher studies or job opportunities in the respective countries. The Centre organizes special lectures and seminars by professors/experts from various foreign Universities/Institutions. These talks are very much essential to take up the innovations, research development, to modify or eliminate the existing old technologies. Guidelines to higher education with funding facilities in different countries are also given through these talks. The centre invites prominent visitors from various foreign Universities/Institutions to DSVV to discuss future collaboration. The international collaboration activities are made through these visits to discuss the collaboration possibilities of strengthening the bilateral academic and research cooperation. The centre does the pre-counselling work for admission of students under Foreign Nationals (FN), Non-Resident Indians (NRI), People of Indian Origin (PIO) and Children of Indian Workers in Gulf Countries (CIWGC) categories to Undergraduate and Postgraduate programs.',
+                      'The Centre also conducts foreign language courses such as German, French and Japanese for students, researchers and faculty members to help to gain much proficiency in the language for higher studies or job opportunities in the respective countries. The Centre organizes special lectures and seminars by professors/experts from various foreign Universities/Institutions. These talks are very much essential to take up the innovations, research development, to modify or eliminate the existing old technologies. ',
                       style: TextStyle(
-                        fontSize: 18,
+                        fontSize: 17,
                       ),
                       textAlign: TextAlign.center),
                   const SizedBox(height: 20),
@@ -72,6 +72,12 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                       'assets/images/international3.jpg',
                       fit: BoxFit.fill,
                     ),
+                  ),
+                  const SizedBox(height: 20),
+                  const Text(
+                    'Guidelines to higher education with funding facilities in different countries are also given through these talks. The centre invites prominent visitors from various foreign Universities/Institutions to DSVV to discuss future collaboration. The international collaboration activities are made through these visits to discuss the collaboration possibilities of strengthening the bilateral academic and research cooperation. The centre does the pre-counselling work for admission of students under Foreign Nationals (FN), Non-Resident Indians (NRI), People of Indian Origin (PIO) and Children of Indian Workers in Gulf Countries (CIWGC) categories to Undergraduate and Postgraduate programs.',
+                    style: TextStyle(fontSize: 16),
+                    textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 20),
                   ClipRRect(
@@ -321,7 +327,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                 children: const [
                   Text(
                     '1. To liaise with partner universities',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                 ],
               ),
@@ -339,7 +345,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                 children: const [
                   Text(
                     '2. To liaise with internal departments for proper functioning',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                 ],
               ),
@@ -357,7 +363,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                 children: const [
                   Text(
                     '3. To organize various international workshops, seminars, conferences',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                 ],
               ),
@@ -375,7 +381,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                 children: const [
                   Text(
                     '4. To conduct the admission procedures for international applicants',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                 ],
               ),
@@ -393,7 +399,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                 children: const [
                   Text(
                     '5. To coordinate international students with their academic pursuits',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                 ],
               ),
@@ -411,7 +417,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                 children: const [
                   Text(
                     '6. To coordinate and facilitate students and staff mobilities',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                 ],
               ),
@@ -423,7 +429,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(5),
                   child: TextButton(
                     style: ButtonStyle(
                       backgroundColor:
@@ -444,7 +450,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                   ),
                 ),
                 Container(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(5),
                   child: TextButton(
                     style: ButtonStyle(
                       backgroundColor:
@@ -465,7 +471,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                   ),
                 ),
                 Container(
-                  padding: const EdgeInsets.all(10),
+                  padding: const EdgeInsets.all(5),
                   child: TextButton(
                     style: ButtonStyle(
                       backgroundColor:
@@ -485,7 +491,7 @@ class _InternationalStudentPageState extends State<InternationalStudentPage> {
                   ),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),
